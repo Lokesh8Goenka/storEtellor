@@ -1,0 +1,255 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold", sans-serif;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-right: 500px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* heading section */
+.big-heading {
+  font-family: 'Caveat', cursive;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title section */
+#title {
+  background-color: #A2DBFA;
+  color: #000000;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 17%;
+}
+
+/* title-image */
+.title-image {
+  width: 10%;
+  transform: rotate(-25deg);
+  position: absolute;
+  left: 100px;
+  top: 120px;
+}
+
+.cloud1 {
+  width: 10%;
+  position: absolute;
+  right: 620px;
+  top: 400px;
+  z-index: 2;
+}
+
+.cloud2 {
+  width: 15%;
+  position: absolute;
+  right: 670px;
+  top: 450px;
+  z-index: 2;
+}
+
+.reading-animal {
+  width: 20%;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.story-image {
+  width: 40%;
+  position: absolute;
+  right: 10px;
+  top: 140px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 50px;
+  background-color: #A2DBFA;
+}
+
+.pricing-text {
+  color: #000000;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  line-height: 1;
+  width: 60%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.background-image {
+  width: 100%;
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
+
+.pricing-text2 {
+  color: #000000;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  line-height: 1;
+  width: 80%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+.pricing-text3 {
+  color: #000000;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  line-height: 1;
+  width: 80%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+
+.dott {
+  font-family: 'Caveat', cursive;
+  font-size: 7rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action---section */
+.call-action {
+  background-color: #77ACF1;
+  padding: 3% 15%;
+}
+
+.cta-text {
+  font-family: 'Otomanopee One', sans-serif;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+/* footer section */
+.ftr {
+  padding: 5px;
+  background-color: #A2DBFA;
+  margin-bottom: 0;
+}
+
+.ftr-icon {
+  padding: 2.5rem 1rem 1rem;
+}
+
+.footer-images {
+  width: 5%;
+  padding: 0 1rem 1rem;
+}
+
+@media (max-width: 1028px) {
+
+.navbar{
+  padding: 0 0 1.5rem;
+}
+
+.big-heading{
+    text-align: left;
+  }
+  .story-image {
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    height: 60%;
+    width: 55%;
+  }
+  .reading-animal{
+    width: 30%;
+    margin-top: 0;
+    transform: rotate(-15deg);
+  }
+  .cloud1 {
+    width: 0;
+  }
+  .cloud2 {
+    width: 0;
+  }
+.title-image {
+    position: relative;
+    width: 20%;
+    top: -210px;
+    left: 250px;
+  }
+    .pricing-text {
+      width: 70%;
+      margin-top: 10px;
+      margin-left: 100px;
+      line-height: normal;
+      font-size: 22px;
+    }
+    .pricing-text2{
+      width: 80%;
+      margin-top: 2px;
+      margin-left: 50px;
+      line-height: normal;
+      font-size: 22px;
+    }
+    .pricing-text3{
+      width: 80%;
+      margin-top: 2px;
+      margin-left: 50px;
+      line-height: normal;
+      font-size: 20px;
+    }
+  .ftr-icon {
+    margin-left: 50px;
+    padding: 1rem;
+  }
+
+  .footer-images {
+    width: 0%;
+  }
+}
